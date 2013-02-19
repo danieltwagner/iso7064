@@ -20,6 +20,7 @@ public abstract class PureSystemCalculator {
      * @throws IllegalStateException Raised if an illegal character is encountered.
      */
     public String compute(String input) throws IllegalStateException {
+    	input = input.toUpperCase();
     	int m = getModulus();
     	int r = getRadix();
     	String chars = getCharacterSet();
