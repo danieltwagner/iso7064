@@ -15,6 +15,7 @@ public abstract class PureSystemCalculator {
      * @throws IllegalArgumentException Raised if the input string is too short.
      */
     public boolean verify(String input) throws IllegalStateException, IllegalArgumentException {
+    	input = input.toUpperCase();
     	int numDigits = isDoubleCheckDigit() ? 2 : 1;
     	if(input.length() <= numDigits) throw new IllegalArgumentException("Input string too short!");
     	
