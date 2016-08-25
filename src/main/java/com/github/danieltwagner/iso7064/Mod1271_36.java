@@ -14,7 +14,7 @@ public class Mod1271_36 extends PureSystemCalculator {
 
 	@Override
 	protected String getCharacterSet() {
-		return "0123456789ABCDEFGHIJKLMNOPQRSTUVWXZY";
+		return "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	}
 
 	@Override
